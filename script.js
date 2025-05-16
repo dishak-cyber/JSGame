@@ -58,7 +58,7 @@ function makeBall(x, y) {
       }
       if (this.yPos > canvas.height) {
         this.yPos = canvas.height;
-        this.xVel *= -1;
+        this.yVel *= -1;
       }
 
     },
